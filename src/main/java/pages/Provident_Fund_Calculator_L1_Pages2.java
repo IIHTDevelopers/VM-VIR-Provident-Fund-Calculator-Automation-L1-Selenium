@@ -1,6 +1,5 @@
 package pages;
 
-
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -10,26 +9,13 @@ import org.testng.asserts.SoftAssert;
 public class Provident_Fund_Calculator_L1_Pages2 extends StartupPage 
 {
 	public SoftAssert softAssert;
-	/*
-	 * WebElemet Declaration
-	 */	
-	By personalFinanceNavigationMenu = By.xpath("");
-	By providentFundCalculatorLink = By.xpath("");
-	By basicMonthlySalaryTextfield = By.xpath("");
-	By contributionToEPFTextfield = By.xpath("");
-	By employersContributionToEPFTextfield = By.xpath("");
-	By avgIncreaseInSalaryYouExpectTextfield = By.xpath("");
-	By ageWhenYouIntendToRetireTextfield = By.xpath("");
-	By currentEpfBalanceIfAnyTextfield = By.xpath("");
-	By currentInterestRateTextfield = By.xpath("");
-	By calculateButton = By.xpath("");
-	By totalAmountByTheTimeYouRetireElement = By.xpath("");
+	
+	// please write all locators here
 
 	/*
 	 * Getting the page name
 	 */	
 	String pageName = this.getClass().getSimpleName();
-
 
 	/*
 	 * constructor Initialization
@@ -38,7 +24,6 @@ public class Provident_Fund_Calculator_L1_Pages2 extends StartupPage
 	{
 		super(driver);
 	}	
-
 
 	/**@Test0
 	 * about this method validateTitleOfCurrentPage() 
