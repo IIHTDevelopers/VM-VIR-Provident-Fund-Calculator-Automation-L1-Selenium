@@ -24,18 +24,6 @@ public class Provident_Fund_Calculator_L1_Pages2 extends StartupPage
 	{
 		super(driver);
 	}	
-
-	/**@Test0
-	 * about this method validateTitleOfCurrentPage() 
-	 * @param : null
-	 * @description : get the title of the current page and validate
-	 * @return : String
-	 * @author : Yaksha
-	 */
-	public String validateTitleOfCurrentPage() throws Exception {
-		// write your logic here
-		return null;
-	}
 	
 	/**@Test1
 	 * about this method navigateToProvidentFundCalculatorPage() 
@@ -44,7 +32,7 @@ public class Provident_Fund_Calculator_L1_Pages2 extends StartupPage
 	 * @return : return the title of that page as String type
 	 * @author : Yaksha
 	 */
-	public String navigateToProvidentFundCalculatorPage() throws Exception {
+	public String titleOfProvidentFundCalculatorPage() throws Exception {
 		// write your logic here
 		return null;
 	}
