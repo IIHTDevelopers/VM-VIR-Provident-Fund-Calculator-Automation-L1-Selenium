@@ -1,11 +1,11 @@
 {
 	"dev":{
-		"url":"https://www.moneycontrol.com/",
+		"url":"https://www.moneycontrol.com/personal-finance/tools/provident-fund-calculator.html",
 		"pageloadtimeout":"90",
 		"implicitwaittime":"30"
 	},
 	"prod":{
-		"url":"https://www.moneycontrol.com/",
+		"url":"https://www.moneycontrol.com/personal-finance/tools/provident-fund-calculator.html",
 		"pageloadtimeout":"90",
 		"implicitwaittime":"30"
 	}
